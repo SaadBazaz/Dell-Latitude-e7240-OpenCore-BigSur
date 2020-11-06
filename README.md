@@ -2,10 +2,10 @@
 
 
   
-####Original repo for Catalina [Here](https://github.com/SaxMachine/Lenovo-Y50-70-OpenCore) 
+**Original repo for Catalina [Here](https://github.com/SaxMachine/Lenovo-Y50-70-OpenCore)** 
 
 
-###**Big sur fork notes**
+###Big sur fork notes
 
 **Big thanks and credits for SaxMachine for doing OpenCore bootloader for Y50 Catalina**
 

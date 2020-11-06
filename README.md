@@ -52,7 +52,7 @@ I don't take responsibility of any damage made to your laptop. For me it worked 
 I dont have ability to test if all works with UHD model
 
 
-##***Below you have info about installation from forked repo***
+## ***Below you have info about installation from forked repo***
 
 **OpenCore - post-installation: 0.6.1**
 

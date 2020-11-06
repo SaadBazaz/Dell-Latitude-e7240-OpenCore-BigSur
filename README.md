@@ -1,14 +1,13 @@
-## Catalina or lower installation with OpenCore for Lenovo Y50-70
+## OpenCore for Lenovo y50-70 updated for Big Sur with BCM94352Z wifi support
 
 **OpenCore - post-installation: 0.6.1**
 
 **Specs:**
-  - Intel Core i7-4710HQ -- [Product Page](https://ark.intel.com/content/www/us/en/ark/products/78930/intel-core-i7-4710hq-processor-6m-cache-up-to-3-50-ghz.html)
+  - Intel Core i5-4210H -- [Product Page](https://ark.intel.com/content/www/us/en/ark/products/78930/intel-core-i7-4710hq-processor-6m-cache-up-to-3-50-ghz.html)
   - Intel HD4600 iGPU
   - Nvidia GTX 860M 4GB (unsupported)
-  - 16GB DDR3 Ram
-  - Realtek RTL8723BE Wifi Card - Replaced with a Broadcom BCM43xx WiFi Card
-  - Replacing the WiFi Card needs a modified BIOS due to Blacklisting non-OEM Cards
+  - 12GB DDR3 Ram
+  - Broadcom BCM94352Z
 
 
 

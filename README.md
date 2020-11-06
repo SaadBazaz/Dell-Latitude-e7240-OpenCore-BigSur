@@ -1,5 +1,7 @@
 ## OpenCore for Lenovo y50-70 updated for Big Sur with BCM94352Z wifi support
 
+
+
 **OpenCore - post-installation: 0.6.1**
 
 **Specs:**

@@ -1,15 +1,62 @@
 ## OpenCore for Lenovo y50-70 updated for Big Sur with BCM94352Z wifi support
 
 
+  
+####Original repo for Catalina [Here](https://github.com/SaxMachine/Lenovo-Y50-70-OpenCore) 
 
-**OpenCore - post-installation: 0.6.1**
 
+###**Big sur fork notes**
+
+**Big thanks and credits for SaxMachine for doing OpenCore bootloader for Y50 Catalina**
+
+Dont ask me if you will have problems with installation, I'm just hackintosh amateur. 
+I don't take responsibility of any damage made to your laptop. For me it worked for
 **Specs:**
-  - Intel Core i5-4210H -- [Product Page](https://ark.intel.com/content/www/us/en/ark/products/78930/intel-core-i7-4710hq-processor-6m-cache-up-to-3-50-ghz.html)
+  - Intel Core i5-4210H
   - Intel HD4600 iGPU
   - Nvidia GTX 860M 4GB (unsupported)
   - 12GB DDR3 Ram
   - Broadcom BCM94352Z
+  
+ But I cant guarantee it will work for you. If you have another wlan card and no knowledge about
+ this things dont update unless you are ready to use only LAN connection.
+ 
+ In my experience wifi sometimes dont turn on just because. So if you dont see any 
+ wifi network restart your laptop. 
+ 
+ If you have **Mojave** and want to update to Big Sur first update your system to
+ Catalina and then proceed
+ 
+ Before updating any kext create pendrive copy of actual EFI so if something wont
+ work you can restore it.
+ 
+ **What works:**
+ 
+ - built-in keyboard (with brightness keys)
+ - built-in trackpad (multi gestures) - **but so far can't turn it off**
+ - HDMI video/audio with hotplug
+ - AirPlay mirroring to AppleTV
+ - native WiFi via BCM94352Z
+ - Bluetooth (with handoff) using BCM94352Z
+ - native USB3
+ - native audio with AppleHDA
+ - built-in mic
+ - built-in camera
+ - native power management
+ - battery status
+ - backlight controls with smooth transitions, save/restore across restart
+ - accelerated graphics for HD4600 including OpenCL - **but system is not perfectly smooth**
+ - wired Ethernet
+ - retina scaling (in the case of UHD screen)
+
+I dont have ability to test if all works with UHD model
+
+
+##***Below you have info about installation from forked repo***
+
+**OpenCore - post-installation: 0.6.1**
+
+
 
 
 

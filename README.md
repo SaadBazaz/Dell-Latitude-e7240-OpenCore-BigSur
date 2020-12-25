@@ -1,56 +1,47 @@
-## OpenCore for Lenovo y50-70 updated for Big Sur with BCM94352Z wifi support
+## OpenCore for Dell e7240 updated for Big Sur with Azurewave AW-CE123H WiFi support
 
+## BigSur fork notes
 
-  
-#### **Original repo for Catalina [Here](https://github.com/SaxMachine/Lenovo-Y50-70-OpenCore)** 
+I am just a tech enthusiast and explorer. 
+I do not take responsibility for any damage made to your laptop.
 
+### Specs:
+  - Intel Core i7 4310U
+  - Intel HD Graphics 4400 (integrated GPU)
+  - 12GB DDR3 RAM
+  - ALPs trackpad (built-in laptop)
+  - Azurewave AW-CE123H (equivalent to dw1550)
 
-## Big sur fork notes
-
-**Big thanks and credits for SaxMachine for doing OpenCore bootloader for Y50 Catalina**
-
-Dont ask me if you will have problems with installation, I'm just hackintosh amateur. 
-I don't take responsibility of any damage made to your laptop. For me it worked for
-**Specs:**
-  - Intel Core i5-4210H
-  - Intel HD4600 iGPU
-  - Nvidia GTX 860M 4GB (unsupported)
-  - 12GB DDR3 Ram
-  - Broadcom BCM94352Z
-  
- But I cant guarantee it will work for you. If you have another wlan card and no knowledge about
- this things dont update unless you are ready to use only LAN connection.
- 
- In my experience wifi sometimes dont turn on just because. So if you dont see any 
- wifi network restart your laptop. 
+  *Note:* My original WiFi card was **dw1601**, which was not supported. If you have another WLAN card and no knowledge about Hackintosh-ing, don't update unless you are ready to use only LAN connection. See [list of supported WiFi cards](https://osxlatitude.com/forums/topic/11138-inventory-of-supportedunsupported-wireless-cards-2-sierra-big-sur/).
  
  If you have **Mojave** and want to update to Big Sur first update your system to
  Catalina and then proceed
  
- Before updating any kext create pendrive copy of actual EFI so if something wont
- work you can restore it.
+ Before updating any kext, create a pendrive copy of the actual EFI so if something won't
+ work you can restore it. Backups **always help.**
  
- **What works:**
- 
- - built-in keyboard (with brightness keys)
- - built-in trackpad (multi gestures) - **but so far can't turn it off**
+### What works 
+ - Built-in keyboard (with volume keys)
+ - Built-in trackpad (multi gestures) - upto 4 finger gestures supported
  - HDMI video/audio with hotplug
- - AirPlay mirroring to AppleTV
- - native WiFi via BCM94352Z
- - Bluetooth (with handoff) using BCM94352Z
- - native USB3
- - native audio with AppleHDA
- - built-in mic
- - built-in camera
- - native power management
- - battery status
- - backlight controls with smooth transitions, save/restore across restart
- - accelerated graphics for HD4600 including OpenCL - **but system is not perfectly smooth**
- - wired Ethernet
- - retina scaling (in the case of UHD screen)
+ - Native WiFi (2.5GHz and 5GHz) via Azurewave AW-CE123H
+ - Bluetooth (with AirDrop and Handoff) using Azurewave AW-CE123H
+ - Native USB3.0 and USB2.0
+ - Native audio with AppleHDA
+ - Built-in mic
+ - Built-in camera
+ - Native power management
+ - Battery status
+ - Display backlight controls with smooth transitions, save/restore across restart
+ - NVRAM
+ - Integrated Graphics
+ - Wired Ethernet
+ - Harddrive, Battery, WiFi status lights
+ 
+ _Note: The above is what I've **tested**. There may be things you're looking for which might not be listed. In that case, drop an Issue and get me to test it for you._ 
 
-I dont have ability to test if all works with UHD model
-
+### What **doesn't** work
+ - WiFi manual on/off switch which is on the side of the laptop. This could be because of my selection of WiFi card. The original had three pins, but this one has two. Good luck with yours.
 
 ## ***Below you have info about installation from forked repo***
 

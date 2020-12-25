@@ -8,6 +8,7 @@ I do not take responsibility for any damage made to your laptop.
 ### Specs:
   - Intel Core i7 4310U
   - Intel HD Graphics 4400 (integrated GPU)
+  - 1336x728 display (LED paper, non-touch)
   - 12GB DDR3 RAM
   - ALPs trackpad (built-in laptop)
   - Azurewave AW-CE123H (equivalent to dw1550)
@@ -37,6 +38,7 @@ I do not take responsibility for any damage made to your laptop.
  - Integrated Graphics
  - Wired Ethernet
  - Harddrive, Battery, WiFi status lights
+ - SD Card Reader
  
  _Note: The above is what I've **tested**. There may be things you're looking for which might not be listed. In that case, drop an Issue and get me to test it for you._ 
 

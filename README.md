@@ -44,6 +44,10 @@ I do not take responsibility for any damage made to your laptop.
 
 ### What **doesn't** work
  - WiFi manual on/off switch which is on the side of the laptop. This could be because of my selection of WiFi card. The original had three pins, but this one has two. Good luck with yours.
+ 
+ 
+## Ending Note
+Star this repo if it helps you out. Feel free to drop PRs or Issues if you'd like to know anything.
 
 ## ***Below you have info about installation from forked repo***
 

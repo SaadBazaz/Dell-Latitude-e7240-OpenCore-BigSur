@@ -1,4 +1,4 @@
-## OpenCore for Dell e7240 updated for Big Sur with Azurewave AW-CE123H WiFi support
+## OpenCore for Dell Latitude e7240 updated for Big Sur with Azurewave AW-CE123H WiFi support
 
 ## BigSur fork notes
 

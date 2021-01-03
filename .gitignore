@@ -5,3 +5,5 @@ Drivers/._*
 Kexts/._*
 Kexts/OFF/._*
 Tools/._*
+
+.DS_Store

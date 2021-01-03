@@ -2,6 +2,8 @@
 
 ## BigSur fork notes
 
+___UPDATED POST-INSTALLATION TO OPENCORE 0.6.4___
+
 I am just a tech enthusiast and explorer. 
 I do not take responsibility for any damage made to your laptop.
 

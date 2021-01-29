@@ -24,7 +24,7 @@ I do not take responsibility for any damage made to your laptop.
  work you can restore it. Backups **always help.**
  
 ### What works 
- - Built-in keyboard (with volume keys)
+ - Built-in keyboard (backlit, with volume keys)
  - Built-in trackpad (multi gestures) - upto 4 finger gestures supported
  - HDMI video/audio with hotplug
  - Native WiFi (2.5GHz and 5GHz) via Azurewave AW-CE123H

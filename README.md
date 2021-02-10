@@ -20,8 +20,8 @@ I do not take responsibility for any damage made to your laptop.
  If you have **Mojave** and want to update to Big Sur first update your system to
  Catalina and then proceed
  
- Before updating any kext, create a pendrive copy of the actual EFI so if something won't
- work you can restore it. Backups **always help.**
+ Before updating any kext, create a pendrive copy of the actual EFI so if something doesn't
+ work, you can restore it. Backups **always help.**
  
 ### What works 
  - Built-in keyboard (backlit, with volume keys)
@@ -45,11 +45,14 @@ I do not take responsibility for any damage made to your laptop.
  _Note: The above is what I've **tested**. There may be things you're looking for which might not be listed. In that case, drop an Issue and get me to test it for you._ 
 
 ### What **doesn't** work
- - WiFi manual on/off switch which is on the side of the laptop. This could be because of my selection of WiFi card. The original had three pins, but this one has two. Good luck with yours.
+ - WiFi manual on/off switch which is on the side of the laptop. It only works for the **Bluetooth module** but NOT WiFi. I found this an odd issue but I'm okay with it. Note: This could be because of my selection of WiFi card. The original had three pins, but this one has two. Good luck with yours.
  
  
 ## Ending Note
 Star this repo if it helps you out. Feel free to drop PRs or Issues if you'd like to know anything.
+
+
+
 
 ## ***Below you have info about installation from forked repo***
 
